@@ -21,16 +21,3 @@ const server = http.createServer(async (req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
-Skapa en fil i samma mapp: package.json
-{
-  "name": "azure-web-app",
-  "version": "1.0.0",
-  "description": "A Node.js app that shows a random joke",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
-  "dependencies": {
-    "axios": "^0.21.1"
-  }
-}
